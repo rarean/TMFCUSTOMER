@@ -2,8 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.tmf.dsmapi.paymentMean;
+package org.tmforum.projects.resources;
 
+/*
 import org.codehaus.jackson.node.ObjectNode;
 import org.tmf.dsmapi.commons.exceptions.BadUsageException;
 import org.tmf.dsmapi.commons.exceptions.UnknownResourceException;
@@ -17,6 +18,7 @@ import org.tmf.dsmapi.paymentMean.event.PaymentMeanEventPublisherLocal;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
+*/
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MultivaluedMap;
@@ -24,10 +26,10 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import java.util.*;
 
-@Stateless
+//@Stateless
 @Path("/customerManagement/v2/paymentMean")
 public class PaymentMeanResource {
-
+/*
     @EJB
     PaymentMeanFacade customerFacade;
     @EJB
@@ -41,7 +43,7 @@ public class PaymentMeanResource {
     /**
      * Test purpose only
      */
-    @POST
+ /*   @POST
     @Consumes({"application/json"})
     @Produces({"application/json"})
     public Response create(PaymentMean entity, @Context UriInfo info) throws BadUsageException, UnknownResourceException {
@@ -163,7 +165,7 @@ public class PaymentMeanResource {
      * @return
      * @throws UnknownResourceException
      */
-    @DELETE
+/*    @DELETE
     @Path("{id}")
     public Response delete(@PathParam("id") long id) throws UnknownResourceException {
         PaymentMean entity = customerFacade.find(id);
@@ -204,4 +206,5 @@ public class PaymentMeanResource {
 
         return response;
     }
+    */
 }

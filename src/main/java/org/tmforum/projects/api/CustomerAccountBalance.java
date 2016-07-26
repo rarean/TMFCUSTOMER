@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerAccountBalance complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -64,7 +64,7 @@ public class CustomerAccountBalance
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -78,7 +78,7 @@ public class CustomerAccountBalance
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -90,7 +90,7 @@ public class CustomerAccountBalance
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété amount.
      * 
      * @return
@@ -104,7 +104,7 @@ public class CustomerAccountBalance
         return amount;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété amount.
      * 
      * @param value
@@ -116,7 +116,7 @@ public class CustomerAccountBalance
         this.amount = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -132,7 +132,7 @@ public class CustomerAccountBalance
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -144,7 +144,7 @@ public class CustomerAccountBalance
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété status.
      * 
      * @return
@@ -158,7 +158,7 @@ public class CustomerAccountBalance
         return status;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété status.
      * 
      * @param value
@@ -170,7 +170,7 @@ public class CustomerAccountBalance
         this.status = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -187,7 +187,7 @@ public class CustomerAccountBalance
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

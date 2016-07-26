@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour PaymentMean complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -72,7 +72,7 @@ public class PaymentMean
     protected RelatedParty relatedParty;
     protected CreditCard creditCard;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -87,7 +87,7 @@ public class PaymentMean
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -99,7 +99,7 @@ public class PaymentMean
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -113,7 +113,7 @@ public class PaymentMean
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -125,7 +125,7 @@ public class PaymentMean
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -139,7 +139,7 @@ public class PaymentMean
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -151,7 +151,7 @@ public class PaymentMean
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -167,7 +167,7 @@ public class PaymentMean
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -179,7 +179,7 @@ public class PaymentMean
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -193,7 +193,7 @@ public class PaymentMean
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -205,7 +205,7 @@ public class PaymentMean
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété bankAccount.
      * 
      * @return
@@ -221,7 +221,7 @@ public class PaymentMean
         return bankAccount;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété bankAccount.
      * 
      * @param value
@@ -233,7 +233,7 @@ public class PaymentMean
         this.bankAccount = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété relatedParty.
      * 
      * @return
@@ -249,7 +249,7 @@ public class PaymentMean
         return relatedParty;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété relatedParty.
      * 
      * @param value
@@ -261,7 +261,7 @@ public class PaymentMean
         this.relatedParty = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété creditCard.
      * 
      * @return
@@ -277,7 +277,7 @@ public class PaymentMean
         return creditCard;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété creditCard.
      * 
      * @param value

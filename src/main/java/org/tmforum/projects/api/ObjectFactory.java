@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 import javax.xml.namespace.QName;
 
 
-/**
+/*
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
  * generated in the org.tmf.dsmapi.customer.model package. 
@@ -51,14 +51,14 @@ public class ObjectFactory {
     private final static QName _Customer_QNAME = new QName("http://orange.com/api/customer/tmf/v2/model/business", "Customer");
     private final static QName _Characteristic_QNAME = new QName("http://orange.com/api/customer/tmf/v2/model/business", "Characteristic");
 
-    /**
+    /*
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.tmf.dsmapi.customer.model
      * 
      */
     public ObjectFactory() {
     }
 
-    /**
+    /*
      * Create an instance of {@link Customer }
      * 
      */
@@ -66,7 +66,7 @@ public class ObjectFactory {
         return new Customer();
     }
 
-    /**
+    /*
      * Create an instance of {@link Characteristic }
      * 
      */
@@ -74,7 +74,7 @@ public class ObjectFactory {
         return new Characteristic();
     }
 
-    /**
+    /*
      * Create an instance of {@link Medium }
      * 
      */
@@ -82,7 +82,7 @@ public class ObjectFactory {
         return new Medium();
     }
 
-    /**
+    /*
      * Create an instance of {@link Contact }
      * 
      */
@@ -90,7 +90,7 @@ public class ObjectFactory {
         return new Contact();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerAccount }
      * 
      */
@@ -98,7 +98,7 @@ public class ObjectFactory {
         return new CustomerAccount();
     }
 
-    /**
+    /*
      * Create an instance of {@link ContactMedium }
      * 
      */
@@ -106,7 +106,7 @@ public class ObjectFactory {
         return new ContactMedium();
     }
 
-    /**
+    /*
      * Create an instance of {@link ValidFor }
      * 
      */
@@ -114,7 +114,7 @@ public class ObjectFactory {
         return new ValidFor();
     }
 
-    /**
+    /*
      * Create an instance of {@link PaymentPlan }
      * 
      */
@@ -122,7 +122,7 @@ public class ObjectFactory {
         return new PaymentPlan();
     }
 
-    /**
+    /*
      * Create an instance of {@link CreditCard }
      * 
      */
@@ -130,7 +130,7 @@ public class ObjectFactory {
         return new CreditCard();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerAccountTaxExemption }
      * 
      */
@@ -138,7 +138,7 @@ public class ObjectFactory {
         return new CustomerAccountTaxExemption();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerAccountRef }
      * 
      */
@@ -146,7 +146,7 @@ public class ObjectFactory {
         return new CustomerAccountRef();
     }
 
-    /**
+    /*
      * Create an instance of {@link RelatedParty }
      * 
      */
@@ -154,7 +154,7 @@ public class ObjectFactory {
         return new RelatedParty();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerCreditProfile }
      * 
      */
@@ -162,7 +162,7 @@ public class ObjectFactory {
         return new CustomerCreditProfile();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerAccountBalance }
      * 
      */
@@ -170,7 +170,7 @@ public class ObjectFactory {
         return new CustomerAccountBalance();
     }
 
-    /**
+    /*
      * Create an instance of {@link BankAccount }
      * 
      */
@@ -178,7 +178,7 @@ public class ObjectFactory {
         return new BankAccount();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerAccountRelationship }
      * 
      */
@@ -186,7 +186,7 @@ public class ObjectFactory {
         return new CustomerAccountRelationship();
     }
 
-    /**
+    /*
      * Create an instance of {@link CustomerRef }
      * 
      */
@@ -194,7 +194,7 @@ public class ObjectFactory {
         return new CustomerRef();
     }
 
-    /**
+    /*
      * Create an instance of {@link PaymentMeanRef }
      * 
      */
@@ -210,7 +210,7 @@ public class ObjectFactory {
         return new PaymentMean();
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link PaymentMean }{@code >}}
      * 
      */
@@ -219,7 +219,7 @@ public class ObjectFactory {
         return new JAXBElement<PaymentMean>(_PaymentMean_QNAME, PaymentMean.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link PaymentMeanRef }{@code >}}
      * 
      */
@@ -228,7 +228,7 @@ public class ObjectFactory {
         return new JAXBElement<PaymentMeanRef>(_PaymentMeanRef_QNAME, PaymentMeanRef.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerRef }{@code >}}
      * 
      */
@@ -237,7 +237,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerRef>(_CustomerRef_QNAME, CustomerRef.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerAccountRelationship }{@code >}}
      * 
      */
@@ -246,7 +246,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerAccountRelationship>(_CustomerAccountRelationship_QNAME, CustomerAccountRelationship.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link BankAccount }{@code >}}
      * 
      */
@@ -255,7 +255,7 @@ public class ObjectFactory {
         return new JAXBElement<BankAccount>(_BankAccount_QNAME, BankAccount.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerAccountBalance }{@code >}}
      * 
      */
@@ -264,7 +264,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerAccountBalance>(_CustomerAccountBalance_QNAME, CustomerAccountBalance.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerCreditProfile }{@code >}}
      * 
      */
@@ -273,7 +273,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerCreditProfile>(_CustomerCreditProfile_QNAME, CustomerCreditProfile.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerAccountRef }{@code >}}
      * 
      */
@@ -282,7 +282,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerAccountRef>(_CustomerAccountRef_QNAME, CustomerAccountRef.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link RelatedParty }{@code >}}
      * 
      */
@@ -291,7 +291,7 @@ public class ObjectFactory {
         return new JAXBElement<RelatedParty>(_RelatedParty_QNAME, RelatedParty.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CreditCard }{@code >}}
      * 
      */
@@ -300,7 +300,7 @@ public class ObjectFactory {
         return new JAXBElement<CreditCard>(_CreditCard_QNAME, CreditCard.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link PaymentPlan }{@code >}}
      * 
      */
@@ -309,7 +309,7 @@ public class ObjectFactory {
         return new JAXBElement<PaymentPlan>(_PaymentPlan_QNAME, PaymentPlan.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerAccountTaxExemption }{@code >}}
      * 
      */
@@ -318,7 +318,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerAccountTaxExemption>(_CustomerAccountTaxExemption_QNAME, CustomerAccountTaxExemption.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link ContactMedium }{@code >}}
      * 
      */
@@ -327,7 +327,7 @@ public class ObjectFactory {
         return new JAXBElement<ContactMedium>(_ContactMedium_QNAME, ContactMedium.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link ValidFor }{@code >}}
      * 
      */
@@ -336,7 +336,7 @@ public class ObjectFactory {
         return new JAXBElement<ValidFor>(_ValidFor_QNAME, ValidFor.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link CustomerAccount }{@code >}}
      * 
      */
@@ -345,7 +345,7 @@ public class ObjectFactory {
         return new JAXBElement<CustomerAccount>(_CustomerAccount_QNAME, CustomerAccount.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link Contact }{@code >}}
      * 
      */
@@ -354,7 +354,7 @@ public class ObjectFactory {
         return new JAXBElement<Contact>(_Contact_QNAME, Contact.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link Medium }{@code >}}
      * 
      */
@@ -363,7 +363,7 @@ public class ObjectFactory {
         return new JAXBElement<Medium>(_Medium_QNAME, Medium.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link Customer }{@code >}}
      * 
      */
@@ -372,7 +372,7 @@ public class ObjectFactory {
         return new JAXBElement<Customer>(_Customer_QNAME, Customer.class, null, value);
     }
 
-    /**
+    /*
      * Create an instance of {@link JAXBElement }{@code <}{@link Characteristic }{@code >}}
      * 
      */

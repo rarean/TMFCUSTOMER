@@ -19,10 +19,10 @@ public class BeanUtils {
 
     private static final PropertyUtilsBean PUB = new PropertyUtilsBean();
 
-    /**
+    /*
      *
-     * @param bean
-     * @param name
+     * @param 'bean'
+     * @param 'name'
      * @return
      */
     public static Object getNestedProperty(Object bean, String name) {
@@ -33,11 +33,11 @@ public class BeanUtils {
         }
     }
 
-    /**
+    /*
      *
-     * @param bean
-     * @param name
-     * @param value
+     * @param 'bean'
+     * @param 'name'
+     * @param 'value'
      */
     public static void setNestedProperty(Object bean, String name, Object value) {
         try {
@@ -46,11 +46,11 @@ public class BeanUtils {
         }
     }
 
-    /**
+    /*
      *
      * @param "bean"
-     * @param patchBean
-     * @param node
+     * @param 'patchBean'
+     * @param 'node'
      */
     public static boolean patch(Object currentBean, Object patchBean, JsonNode node) {
         String name;

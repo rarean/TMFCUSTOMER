@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
+/*
  * <p>Classe Java pour Contact complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -73,7 +73,7 @@ public class Contact
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -87,7 +87,7 @@ public class Contact
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -99,7 +99,7 @@ public class Contact
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -115,7 +115,7 @@ public class Contact
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -127,7 +127,7 @@ public class Contact
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -141,7 +141,7 @@ public class Contact
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -153,7 +153,7 @@ public class Contact
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété partyRoleType.
      * 
      * @return
@@ -167,7 +167,7 @@ public class Contact
         return partyRoleType;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété partyRoleType.
      * 
      * @param value
@@ -179,7 +179,7 @@ public class Contact
         this.partyRoleType = value;
     }
 
-    /**
+    /*
      * Gets the value of the medium property.
      * 
      * <p>
@@ -220,7 +220,7 @@ public class Contact
         this.medium = medium;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété relatedParty.
      * 
      * @return
@@ -236,7 +236,7 @@ public class Contact
         return relatedParty;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété relatedParty.
      * 
      * @param value
@@ -248,7 +248,7 @@ public class Contact
         this.relatedParty = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -265,7 +265,7 @@ public class Contact
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

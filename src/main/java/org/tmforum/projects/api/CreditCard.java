@@ -18,7 +18,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 
-/**
+/*
  * <p>Classe Java pour CreditCard complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -67,7 +67,7 @@ public class CreditCard
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété holder.
      * 
      * @return
@@ -81,7 +81,7 @@ public class CreditCard
         return holder;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété holder.
      * 
      * @param value
@@ -93,7 +93,7 @@ public class CreditCard
         this.holder = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -107,7 +107,7 @@ public class CreditCard
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -119,7 +119,7 @@ public class CreditCard
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété number.
      * 
      * @return
@@ -133,7 +133,7 @@ public class CreditCard
         return number;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété number.
      * 
      * @param value
@@ -145,7 +145,7 @@ public class CreditCard
         this.number = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété expirationDate.
      * 
      * @return
@@ -160,7 +160,7 @@ public class CreditCard
         return expirationDate;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété expirationDate.
      * 
      * @param value
@@ -172,7 +172,7 @@ public class CreditCard
         this.expirationDate = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -189,7 +189,7 @@ public class CreditCard
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

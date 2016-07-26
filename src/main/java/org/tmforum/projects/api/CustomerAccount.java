@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerAccount complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -101,7 +101,7 @@ public class CustomerAccount
     @XmlSchemaType(name = "dateTime")
     protected Date lastModified;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -116,7 +116,7 @@ public class CustomerAccount
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -128,7 +128,7 @@ public class CustomerAccount
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -142,7 +142,7 @@ public class CustomerAccount
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -154,7 +154,7 @@ public class CustomerAccount
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -168,7 +168,7 @@ public class CustomerAccount
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -180,7 +180,7 @@ public class CustomerAccount
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété description.
      * 
      * @return
@@ -194,7 +194,7 @@ public class CustomerAccount
         return description;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété description.
      * 
      * @param value
@@ -206,7 +206,7 @@ public class CustomerAccount
         this.description = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété status.
      * 
      * @return
@@ -220,7 +220,7 @@ public class CustomerAccount
         return status;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété status.
      * 
      * @param value
@@ -232,7 +232,7 @@ public class CustomerAccount
         this.status = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété accountType.
      * 
      * @return
@@ -246,7 +246,7 @@ public class CustomerAccount
         return accountType;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété accountType.
      * 
      * @param value
@@ -258,7 +258,7 @@ public class CustomerAccount
         this.accountType = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété creditLimit.
      * 
      * @return
@@ -272,7 +272,7 @@ public class CustomerAccount
         return creditLimit;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété creditLimit.
      * 
      * @param value
@@ -284,7 +284,7 @@ public class CustomerAccount
         this.creditLimit = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété pin.
      * 
      * @return
@@ -298,7 +298,7 @@ public class CustomerAccount
         return pin;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété pin.
      * 
      * @param value
@@ -310,7 +310,7 @@ public class CustomerAccount
         this.pin = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété receivableBalance.
      * 
      * @return
@@ -324,7 +324,7 @@ public class CustomerAccount
         return receivableBalance;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété receivableBalance.
      * 
      * @param value
@@ -336,7 +336,7 @@ public class CustomerAccount
         this.receivableBalance = value;
     }
 
-    /**
+    /*
      * Gets the value of the customerAccountTaxExemption property.
      * 
      * <p>
@@ -369,7 +369,7 @@ public class CustomerAccount
         return this.customerAccountTaxExemption;
     }
 
-    /**
+    /*
      * 
      * 
      */
@@ -377,7 +377,7 @@ public class CustomerAccount
         this.customerAccountTaxExemption = customerAccountTaxExemption;
     }
 
-    /**
+    /*
      * Gets the value of the customerAccountRelationship property.
      * 
      * <p>
@@ -410,7 +410,7 @@ public class CustomerAccount
         return this.customerAccountRelationship;
     }
 
-    /**
+    /*
      * 
      * 
      */
@@ -418,7 +418,7 @@ public class CustomerAccount
         this.customerAccountRelationship = customerAccountRelationship;
     }
 
-    /**
+    /*
      * Gets the value of the contact property.
      * 
      * <p>
@@ -451,7 +451,7 @@ public class CustomerAccount
         return this.contact;
     }
 
-    /**
+    /*
      * 
      * 
      */
@@ -459,7 +459,7 @@ public class CustomerAccount
         this.contact = contact;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété customer.
      * 
      * @return
@@ -475,7 +475,7 @@ public class CustomerAccount
         return customer;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété customer.
      * 
      * @param value
@@ -487,7 +487,7 @@ public class CustomerAccount
         this.customer = value;
     }
 
-    /**
+    /*
      * Gets the value of the customerAccountBalance property.
      * 
      * <p>
@@ -520,7 +520,7 @@ public class CustomerAccount
         return this.customerAccountBalance;
     }
 
-    /**
+    /*
      * 
      * 
      */
@@ -528,7 +528,7 @@ public class CustomerAccount
         this.customerAccountBalance = customerAccountBalance;
     }
 
-    /**
+    /*
      * Gets the value of the paymentPlan property.
      * 
      * <p>
@@ -569,7 +569,7 @@ public class CustomerAccount
         this.paymentPlan = paymentPlan;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété lastModified.
      * 
      * @return
@@ -584,7 +584,7 @@ public class CustomerAccount
         return lastModified;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété lastModified.
      * 
      * @param value

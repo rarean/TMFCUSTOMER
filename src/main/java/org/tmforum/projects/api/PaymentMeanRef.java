@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour PaymentMeanRef complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -61,7 +61,7 @@ public class PaymentMeanRef
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -75,7 +75,7 @@ public class PaymentMeanRef
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -87,7 +87,7 @@ public class PaymentMeanRef
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -101,7 +101,7 @@ public class PaymentMeanRef
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -113,7 +113,7 @@ public class PaymentMeanRef
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -127,7 +127,7 @@ public class PaymentMeanRef
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -139,7 +139,7 @@ public class PaymentMeanRef
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -156,7 +156,7 @@ public class PaymentMeanRef
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

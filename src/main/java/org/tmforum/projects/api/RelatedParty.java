@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour RelatedParty complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -64,7 +64,7 @@ public class RelatedParty
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -78,7 +78,7 @@ public class RelatedParty
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -90,7 +90,7 @@ public class RelatedParty
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -104,7 +104,7 @@ public class RelatedParty
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -116,7 +116,7 @@ public class RelatedParty
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété role.
      * 
      * @return
@@ -130,7 +130,7 @@ public class RelatedParty
         return role;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété role.
      * 
      * @param value
@@ -142,7 +142,7 @@ public class RelatedParty
         this.role = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -156,7 +156,7 @@ public class RelatedParty
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -168,7 +168,7 @@ public class RelatedParty
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -185,7 +185,7 @@ public class RelatedParty
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

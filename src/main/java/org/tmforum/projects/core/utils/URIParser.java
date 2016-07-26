@@ -24,7 +24,7 @@ public class URIParser {
     private URIParser() {
     }
 
-    /**
+    /*
      *
      * @param queryParameters
      * @return

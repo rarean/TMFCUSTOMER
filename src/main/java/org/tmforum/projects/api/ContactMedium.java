@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour ContactMedium complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -65,7 +65,7 @@ public class ContactMedium
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -79,7 +79,7 @@ public class ContactMedium
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -91,7 +91,7 @@ public class ContactMedium
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -107,7 +107,7 @@ public class ContactMedium
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -119,7 +119,7 @@ public class ContactMedium
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété medium.
      * 
      * @return
@@ -135,7 +135,7 @@ public class ContactMedium
         return medium;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété medium.
      * 
      * @param value
@@ -147,7 +147,7 @@ public class ContactMedium
         this.medium = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété preferred.
      * 
      * @return
@@ -161,7 +161,7 @@ public class ContactMedium
         return preferred;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété preferred.
      * 
      * @param value
@@ -173,7 +173,7 @@ public class ContactMedium
         this.preferred = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -190,7 +190,7 @@ public class ContactMedium
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

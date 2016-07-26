@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour Medium complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -79,7 +79,7 @@ public class Medium
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété city.
      * 
      * @return
@@ -93,7 +93,7 @@ public class Medium
         return city;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété city.
      * 
      * @param value
@@ -105,7 +105,7 @@ public class Medium
         this.city = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété country.
      * 
      * @return
@@ -119,7 +119,7 @@ public class Medium
         return country;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété country.
      * 
      * @param value
@@ -131,7 +131,7 @@ public class Medium
         this.country = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété emailAddress.
      * 
      * @return
@@ -145,7 +145,7 @@ public class Medium
         return emailAddress;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété emailAddress.
      * 
      * @param value
@@ -157,7 +157,7 @@ public class Medium
         this.emailAddress = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -171,7 +171,7 @@ public class Medium
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -183,7 +183,7 @@ public class Medium
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété number.
      * 
      * @return
@@ -197,7 +197,7 @@ public class Medium
         return number;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété number.
      * 
      * @param value
@@ -209,7 +209,7 @@ public class Medium
         this.number = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété postcode.
      * 
      * @return
@@ -223,7 +223,7 @@ public class Medium
         return postcode;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété postcode.
      * 
      * @param value
@@ -235,7 +235,7 @@ public class Medium
         this.postcode = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété stateOrProvince.
      * 
      * @return
@@ -249,7 +249,7 @@ public class Medium
         return stateOrProvince;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété stateOrProvince.
      * 
      * @param value
@@ -261,7 +261,7 @@ public class Medium
         this.stateOrProvince = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété streetOne.
      * 
      * @return
@@ -275,7 +275,7 @@ public class Medium
         return streetOne;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété streetOne.
      * 
      * @param value
@@ -287,7 +287,7 @@ public class Medium
         this.streetOne = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété streetTwo.
      * 
      * @return
@@ -301,7 +301,7 @@ public class Medium
         return streetTwo;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété streetTwo.
      * 
      * @param value
@@ -313,7 +313,7 @@ public class Medium
         this.streetTwo = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -330,7 +330,7 @@ public class Medium
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

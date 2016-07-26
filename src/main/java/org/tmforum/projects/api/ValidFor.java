@@ -18,7 +18,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 
-/**
+/*
  * <p>Classe Java pour ValidFor complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -63,7 +63,7 @@ public class ValidFor implements Serializable
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété startDateTime.
      * 
      * @return
@@ -78,7 +78,7 @@ public class ValidFor implements Serializable
         return startDateTime;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété startDateTime.
      * 
      * @param value
@@ -90,7 +90,7 @@ public class ValidFor implements Serializable
         this.startDateTime = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété endDateTime.
      * 
      * @return
@@ -105,7 +105,7 @@ public class ValidFor implements Serializable
         return endDateTime;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété endDateTime.
      * 
      * @param value
@@ -117,7 +117,7 @@ public class ValidFor implements Serializable
         this.endDateTime = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -134,7 +134,7 @@ public class ValidFor implements Serializable
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

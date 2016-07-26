@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerAccountRef complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -67,7 +67,7 @@ public class CustomerAccountRef
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -81,7 +81,7 @@ public class CustomerAccountRef
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -93,7 +93,7 @@ public class CustomerAccountRef
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -107,7 +107,7 @@ public class CustomerAccountRef
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -119,7 +119,7 @@ public class CustomerAccountRef
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -133,7 +133,7 @@ public class CustomerAccountRef
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -145,7 +145,7 @@ public class CustomerAccountRef
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété description.
      * 
      * @return
@@ -159,7 +159,7 @@ public class CustomerAccountRef
         return description;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété description.
      * 
      * @param value
@@ -171,7 +171,7 @@ public class CustomerAccountRef
         this.description = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété status.
      * 
      * @return
@@ -185,7 +185,7 @@ public class CustomerAccountRef
         return status;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété status.
      * 
      * @param value
@@ -197,7 +197,7 @@ public class CustomerAccountRef
         this.status = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -214,7 +214,7 @@ public class CustomerAccountRef
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

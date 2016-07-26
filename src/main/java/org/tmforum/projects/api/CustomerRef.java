@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerRef complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -64,7 +64,7 @@ public class CustomerRef
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -78,7 +78,7 @@ public class CustomerRef
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -90,7 +90,7 @@ public class CustomerRef
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -104,7 +104,7 @@ public class CustomerRef
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -116,7 +116,7 @@ public class CustomerRef
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -130,7 +130,7 @@ public class CustomerRef
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -142,7 +142,7 @@ public class CustomerRef
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété description.
      * 
      * @return
@@ -156,7 +156,7 @@ public class CustomerRef
         return description;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété description.
      * 
      * @param value
@@ -168,7 +168,7 @@ public class CustomerRef
         this.description = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -185,7 +185,7 @@ public class CustomerRef
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerAccountRelationship complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -63,7 +63,7 @@ public class CustomerAccountRelationship
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété relationshipType.
      * 
      * @return
@@ -77,7 +77,7 @@ public class CustomerAccountRelationship
         return relationshipType;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété relationshipType.
      * 
      * @param value
@@ -89,7 +89,7 @@ public class CustomerAccountRelationship
         this.relationshipType = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -105,7 +105,7 @@ public class CustomerAccountRelationship
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -117,7 +117,7 @@ public class CustomerAccountRelationship
         this.validFor = value;
     }
 
-    /**
+    /*
      * Gets the value of the customerAccount property.
      * 
      * <p>
@@ -150,7 +150,7 @@ public class CustomerAccountRelationship
         return this.customerAccount;
     }
 
-    /**
+    /*
      * 
      * 
      */
@@ -158,7 +158,7 @@ public class CustomerAccountRelationship
         this.customerAccount = customerAccount;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -175,7 +175,7 @@ public class CustomerAccountRelationship
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

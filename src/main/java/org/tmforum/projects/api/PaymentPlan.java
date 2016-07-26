@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour PaymentPlan complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -76,7 +76,7 @@ public class PaymentPlan
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété status.
      * 
      * @return
@@ -90,7 +90,7 @@ public class PaymentPlan
         return status;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété status.
      * 
      * @param value
@@ -102,7 +102,7 @@ public class PaymentPlan
         this.status = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété type.
      * 
      * @return
@@ -116,7 +116,7 @@ public class PaymentPlan
         return type;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété type.
      * 
      * @param value
@@ -128,7 +128,7 @@ public class PaymentPlan
         this.type = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété priority.
      * 
      * @return
@@ -142,7 +142,7 @@ public class PaymentPlan
         return priority;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété priority.
      * 
      * @param value
@@ -154,7 +154,7 @@ public class PaymentPlan
         this.priority = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété amount.
      * 
      * @return
@@ -168,7 +168,7 @@ public class PaymentPlan
         return amount;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété amount.
      * 
      * @param value
@@ -180,7 +180,7 @@ public class PaymentPlan
         this.amount = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété paymentFrequency.
      * 
      * @return
@@ -194,7 +194,7 @@ public class PaymentPlan
         return paymentFrequency;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété paymentFrequency.
      * 
      * @param value
@@ -206,7 +206,7 @@ public class PaymentPlan
         this.paymentFrequency = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété numberOfPayments.
      * 
      * @return
@@ -220,7 +220,7 @@ public class PaymentPlan
         return numberOfPayments;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété numberOfPayments.
      * 
      * @param value
@@ -232,7 +232,7 @@ public class PaymentPlan
         this.numberOfPayments = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -248,7 +248,7 @@ public class PaymentPlan
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -260,7 +260,7 @@ public class PaymentPlan
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété paymentMean.
      * 
      * @return
@@ -276,7 +276,7 @@ public class PaymentPlan
         return paymentMean;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété paymentMean.
      * 
      * @param value
@@ -288,7 +288,7 @@ public class PaymentPlan
         this.paymentMean = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -305,7 +305,7 @@ public class PaymentPlan
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

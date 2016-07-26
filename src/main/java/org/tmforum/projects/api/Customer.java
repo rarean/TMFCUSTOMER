@@ -18,7 +18,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/*
  * <p>Classe Java pour Customer complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -88,7 +88,7 @@ public class Customer
     protected List<CustomerCreditProfile> customerCreditProfile;
     protected List<PaymentMeanRef> paymentMean;
 
-    /**
+    /*
      * Obtient la valeur de la propriété id.
      * 
      * @return
@@ -103,7 +103,7 @@ public class Customer
         return id;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété id.
      * 
      * @param value
@@ -115,7 +115,7 @@ public class Customer
         this.id = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété href.
      * 
      * @return
@@ -129,7 +129,7 @@ public class Customer
         return href;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété href.
      * 
      * @param value
@@ -141,7 +141,7 @@ public class Customer
         this.href = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -155,7 +155,7 @@ public class Customer
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -167,7 +167,7 @@ public class Customer
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété status.
      * 
      * @return
@@ -181,7 +181,7 @@ public class Customer
         return status;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété status.
      * 
      * @param value
@@ -193,7 +193,7 @@ public class Customer
         this.status = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété description.
      * 
      * @return
@@ -207,7 +207,7 @@ public class Customer
         return description;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété description.
      * 
      * @param value
@@ -219,7 +219,7 @@ public class Customer
         this.description = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -235,7 +235,7 @@ public class Customer
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -247,7 +247,7 @@ public class Customer
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété customerRank.
      * 
      * @return
@@ -261,7 +261,7 @@ public class Customer
         return customerRank;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété customerRank.
      * 
      * @param value
@@ -273,7 +273,7 @@ public class Customer
         this.customerRank = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété relatedParty.
      * 
      * @return
@@ -289,7 +289,7 @@ public class Customer
         return relatedParty;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété relatedParty.
      * 
      * @param value
@@ -301,7 +301,7 @@ public class Customer
         this.relatedParty = value;
     }
 
-    /**
+    /*
      * Gets the value of the characteristic property.
      * 
      * <p>
@@ -342,7 +342,7 @@ public class Customer
         this.characteristic = characteristic;
     }
 
-    /**
+    /*
      * Gets the value of the contactMedium property.
      * 
      * <p>
@@ -375,7 +375,7 @@ public class Customer
         return this.contactMedium;
     }
 
-    /**
+    /*
      * 
      * 
      */
@@ -383,7 +383,7 @@ public class Customer
         this.contactMedium = contactMedium;
     }
 
-    /**
+    /*
      * Gets the value of the customerAccount property.
      * 
      * <p>
@@ -417,7 +417,7 @@ public class Customer
         this.customerAccount = customerAccount;
     }
 
-    /**
+    /*
      * Gets the value of the customerCreditProfile property.
      * 
      * <p>
@@ -456,7 +456,7 @@ public class Customer
         this.customerCreditProfile = customerCreditProfile;
     }
 
-    /**
+    /*
      * Gets the value of the paymentMean property.
      * 
      * <p>

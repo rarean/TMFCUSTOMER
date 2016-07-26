@@ -18,7 +18,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerCreditProfile complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -67,7 +67,7 @@ public class CustomerCreditProfile
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété creditProfileDate.
      * 
      * @return
@@ -82,7 +82,7 @@ public class CustomerCreditProfile
         return creditProfileDate;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété creditProfileDate.
      * 
      * @param value
@@ -94,7 +94,7 @@ public class CustomerCreditProfile
         this.creditProfileDate = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -110,7 +110,7 @@ public class CustomerCreditProfile
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -122,7 +122,7 @@ public class CustomerCreditProfile
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété creditRiskRating.
      * 
      * @return
@@ -136,7 +136,7 @@ public class CustomerCreditProfile
         return creditRiskRating;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété creditRiskRating.
      * 
      * @param value
@@ -148,7 +148,7 @@ public class CustomerCreditProfile
         this.creditRiskRating = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété creditScore.
      * 
      * @return
@@ -162,7 +162,7 @@ public class CustomerCreditProfile
         return creditScore;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété creditScore.
      * 
      * @param value
@@ -174,7 +174,7 @@ public class CustomerCreditProfile
         this.creditScore = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -191,7 +191,7 @@ public class CustomerCreditProfile
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

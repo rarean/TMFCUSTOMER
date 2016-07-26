@@ -26,7 +26,7 @@ import java.io.Serializable;
 
 
 
-/**
+/*
  * <p>Classe Java for BankAccount complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained in this class.
@@ -73,7 +73,7 @@ public class BankAccount implements Serializable {
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété bic.
      * 
      * @return
@@ -87,7 +87,7 @@ public class BankAccount implements Serializable {
         return bic;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété bic.
      * 
      * @param value
@@ -99,7 +99,7 @@ public class BankAccount implements Serializable {
         this.bic = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété domiciliation.
      * 
      * @return
@@ -113,7 +113,7 @@ public class BankAccount implements Serializable {
         return domiciliation;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété domiciliation.
      * 
      * @param value
@@ -125,7 +125,7 @@ public class BankAccount implements Serializable {
         this.domiciliation = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété iban.
      * 
      * @return
@@ -139,7 +139,7 @@ public class BankAccount implements Serializable {
         return iban;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété iban.
      * 
      * @param value
@@ -151,7 +151,7 @@ public class BankAccount implements Serializable {
         this.iban = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété accountHolder.
      * 
      * @return
@@ -165,7 +165,7 @@ public class BankAccount implements Serializable {
         return accountHolder;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété accountHolder.
      * 
      * @param value
@@ -177,7 +177,7 @@ public class BankAccount implements Serializable {
         this.accountHolder = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -194,7 +194,7 @@ public class BankAccount implements Serializable {
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

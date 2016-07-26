@@ -13,7 +13,7 @@ public class TMFDate {
 
     private static SimpleDateFormat FORMATER;
 
-    /**
+    /*
      *
      * @param date
      * @return
@@ -22,7 +22,7 @@ public class TMFDate {
         return getFormater().format(date);
     }
     
-    /**
+    /*
      *
      * @param "Date"
      * @return

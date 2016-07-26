@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour Characteristic complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -59,7 +59,7 @@ public class Characteristic
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété name.
      * 
      * @return
@@ -73,7 +73,7 @@ public class Characteristic
         return name;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété name.
      * 
      * @param value
@@ -85,7 +85,7 @@ public class Characteristic
         this.name = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété value.
      * 
      * @return
@@ -99,7 +99,7 @@ public class Characteristic
         return value;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété value.
      * 
      * @param value
@@ -111,7 +111,7 @@ public class Characteristic
         this.value = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -128,7 +128,7 @@ public class Characteristic
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value

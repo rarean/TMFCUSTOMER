@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 
-/**
+/*
  * <p>Classe Java pour CustomerAccountTaxExemption complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
@@ -64,7 +64,7 @@ public class CustomerAccountTaxExemption
     @JsonIgnore
     protected Long hjid;
 
-    /**
+    /*
      * Obtient la valeur de la propriété issuingJurisdiction.
      * 
      * @return
@@ -78,7 +78,7 @@ public class CustomerAccountTaxExemption
         return issuingJurisdiction;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété issuingJurisdiction.
      * 
      * @param value
@@ -90,7 +90,7 @@ public class CustomerAccountTaxExemption
         this.issuingJurisdiction = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété certificateNumber.
      * 
      * @return
@@ -104,7 +104,7 @@ public class CustomerAccountTaxExemption
         return certificateNumber;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété certificateNumber.
      * 
      * @param value
@@ -116,7 +116,7 @@ public class CustomerAccountTaxExemption
         this.certificateNumber = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété reason.
      * 
      * @return
@@ -130,7 +130,7 @@ public class CustomerAccountTaxExemption
         return reason;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété reason.
      * 
      * @param value
@@ -142,7 +142,7 @@ public class CustomerAccountTaxExemption
         this.reason = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété validFor.
      * 
      * @return
@@ -158,7 +158,7 @@ public class CustomerAccountTaxExemption
         return validFor;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété validFor.
      * 
      * @param value
@@ -170,7 +170,7 @@ public class CustomerAccountTaxExemption
         this.validFor = value;
     }
 
-    /**
+    /*
      * Obtient la valeur de la propriété hjid.
      * 
      * @return
@@ -187,7 +187,7 @@ public class CustomerAccountTaxExemption
         return hjid;
     }
 
-    /**
+    /*
      * Définit la valeur de la propriété hjid.
      * 
      * @param value
