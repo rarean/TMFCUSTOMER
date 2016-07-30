@@ -28,7 +28,7 @@ public abstract class AbstractFacade<T> {
     private static final String pattern = "yyyy-MM-dd'T'HH:mm:ssZ";
     private static SimpleDateFormat formatter = new SimpleDateFormat(pattern);
 
-    /**
+    /*
      *
      * @param entityClass
      */
@@ -36,13 +36,13 @@ public abstract class AbstractFacade<T> {
         this.entityClass = entityClass;
     }
 
-    /**
+    /*
      *
      * @return
      */
     protected abstract EntityManager getEntityManager();
 
-    /**
+    /*
      *
      * @param entities
      * @return
@@ -56,7 +56,7 @@ public abstract class AbstractFacade<T> {
         return entities.size();
     }
 
-    /**
+    /*
      *
      * @param entity
      * @throws BadUsageException
@@ -66,7 +66,7 @@ public abstract class AbstractFacade<T> {
         getEntityManager().persist(entity);
     }
 
-    /**
+    /*
      *
      * @param entity
      * @return
@@ -78,7 +78,7 @@ public abstract class AbstractFacade<T> {
         return entity;
     }
 
-    /**
+    /*
      *
      * @param id
      * @throws UnknownResourceException
@@ -98,7 +98,7 @@ public abstract class AbstractFacade<T> {
         }
     }
 
-    /**
+    /*
      *
      * @param id
      * @return
@@ -112,7 +112,7 @@ public abstract class AbstractFacade<T> {
         return entity;
     }
 
-    /**
+    /*
      *
      * @param entity
      */
@@ -120,14 +120,14 @@ public abstract class AbstractFacade<T> {
         getEntityManager().remove(entity);// .detach(entity);
     }
 
-    /**
+    /*
      *
      */
     public void clearCache() {
         getEntityManager().clear();
     }
 
-    /**
+    /*
      *
      * @return
      */
@@ -137,7 +137,7 @@ public abstract class AbstractFacade<T> {
         return getEntityManager().createQuery(cq).getResultList();
     }
 
-    /**
+    /*
      *
      * @param range
      * @return
@@ -151,7 +151,7 @@ public abstract class AbstractFacade<T> {
         return q.getResultList();
     }
 
-    /**
+    /*
      *
      * @return
      */
@@ -163,7 +163,7 @@ public abstract class AbstractFacade<T> {
         return ((Long) q.getSingleResult()).intValue();
     }
 
-    /**
+    /*
      *
      * @param map
      * @param clazz
@@ -360,7 +360,7 @@ public abstract class AbstractFacade<T> {
         }
     }
 
-    /**
+    /*
      *
      * @param tt
      * @param name

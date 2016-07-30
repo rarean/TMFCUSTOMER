@@ -14,7 +14,7 @@ public class TechnicalException extends RuntimeException implements Serializable
     private ExceptionType type = ExceptionType.TECHNICAL;
 
 
-    /**
+    /*
      *
      */
     public TechnicalException() {
@@ -23,7 +23,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         localisationMethod = "";
     }   
 
-    /**
+    /*
      *
      * @param message
      */
@@ -33,7 +33,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         localisationMethod = "";
     }
 
-    /**
+    /*
      *
      * @param message
      * @param cause
@@ -44,7 +44,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         localisationMethod = "";
     }
 
-    /**
+    /*
      *
      * @param cause
      */
@@ -54,7 +54,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         localisationMethod = "";
     }
 
-    /**
+    /*
      *
      * @param clazz
      * @param method
@@ -66,7 +66,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         localisationMethod = method;
     }
 
-    /**
+    /*
      *
      * @param clazz
      * @param method
@@ -79,7 +79,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         localisationMethod = method;
     }
 
-    /**
+    /*
      *
      * @return
      */
@@ -87,7 +87,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         return localisationClass;
     }
 
-    /**
+    /*
      *
      * @return
      */
@@ -95,7 +95,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         return localisationMethod;
     }
 
-    /**
+    /*
      *
      * @return
      */
@@ -103,7 +103,7 @@ public class TechnicalException extends RuntimeException implements Serializable
         return localisationClass + "." + localisationMethod;
     }
 
-    /**
+    /*
      * @return the type
      */
     public ExceptionType getType() {
