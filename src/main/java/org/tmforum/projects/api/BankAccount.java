@@ -16,6 +16,7 @@ package org.tmforum.projects.api;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -55,7 +56,7 @@ import java.io.Serializable;
     "iban",
     "accountHolder"
 })
-//@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
+@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 @JsonInclude
 @Entity(name = "BankAccount")
 @Table(name = "BANK_ACCOUNT")
