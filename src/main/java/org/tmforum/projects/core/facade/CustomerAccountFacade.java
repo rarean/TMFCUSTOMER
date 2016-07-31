@@ -53,14 +53,12 @@ public class CustomerAccountFacade extends AbstractFacade<CustomerAccount> {
 
         if (null == customerAccount.getName()
                 || customerAccount.getName().isEmpty()) {
-            throw new BadUsageException(ExceptionType.BAD_USAGE_MANDATORY_FIELDS, 
-                    "name is mandatory");
+            throw new BadUsageException(ExceptionType.BAD_USAGE_MANDATORY_FIELDS, "name is mandatory");
         }
 
         if (null == customerAccount.getAccountType()
                 || customerAccount.getAccountType().isEmpty()) {
-            throw new BadUsageException(ExceptionType.BAD_USAGE_MANDATORY_FIELDS, 
-                    "accountType is mandatory");
+            throw new BadUsageException(ExceptionType.BAD_USAGE_MANDATORY_FIELDS, "accountType is mandatory");
         }
 
         if (null != customerAccount.getCustomerAccountTaxExemption()

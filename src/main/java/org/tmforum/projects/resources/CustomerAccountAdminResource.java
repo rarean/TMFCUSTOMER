@@ -9,6 +9,7 @@ import org.tmforum.projects.core.facade.CustomerAccountFacade;
 import org.tmforum.projects.core.jaxrs.Report;
 
 import javax.ejb.EJB;
+import javax.ejb.Stateless;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
@@ -24,7 +25,7 @@ import java.util.logging.Logger;
 //import org.tmf.dsmapi.customerAccount.event.CustomerAccountEvent;
 //import org.tmf.dsmapi.customerAccount.event.CustomerAccountEventFacade;
 
-//@Stateless
+@Stateless
 @Path("/admin/customerAccount")
 public class CustomerAccountAdminResource {
 
