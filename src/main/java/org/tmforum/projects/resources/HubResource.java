@@ -11,9 +11,17 @@ import org.tmf.dsmapi.customerAccount.event.CustomerAccountEventTypeEnum;
 import org.tmf.dsmapi.paymentMean.event.PaymentMeanEvent;
 import org.tmf.dsmapi.paymentMean.event.PaymentMeanEventTypeEnum;
 
+*/
+
+import org.tmforum.projects.api.event.*;
+import org.tmforum.projects.api.model.*;
+import org.tmforum.projects.core.exceptions.BadUsageException;
+import org.tmforum.projects.core.exceptions.UnknownResourceException;
+import org.tmforum.projects.core.facade.HubFacade;
+import org.tmforum.projects.core.jaxrs.Report;
+
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
-*/
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
@@ -21,10 +29,10 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-//@Stateless
+@Stateless
 @Path("/customerManagement/v2/hub")
 public class HubResource {
-/*
+
     @EJB
     HubFacade hubFacade;
 
@@ -481,5 +489,5 @@ public class HubResource {
 
         return event;
     }
-*/
+
 }

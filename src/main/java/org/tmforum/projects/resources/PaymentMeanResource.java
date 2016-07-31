@@ -8,7 +8,6 @@ package org.tmforum.projects.resources;
 import org.codehaus.jackson.node.ObjectNode;
 import org.tmf.dsmapi.commons.exceptions.BadUsageException;
 import org.tmf.dsmapi.commons.exceptions.UnknownResourceException;
-import org.tmf.dsmapi.commons.jaxrs.PATCH;
 import org.tmf.dsmapi.commons.utils.Jackson;
 import org.tmf.dsmapi.commons.utils.URIParser;
 import org.tmf.dsmapi.customer.model.PaymentMean;
@@ -16,9 +15,22 @@ import org.tmf.dsmapi.paymentMean.event.PaymentMeanEvent;
 import org.tmf.dsmapi.paymentMean.event.PaymentMeanEventFacade;
 import org.tmf.dsmapi.paymentMean.event.PaymentMeanEventPublisherLocal;
 
+*/
+
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import io.dropwizard.jersey.PATCH;
+import org.tmforum.projects.api.event.PaymentMeanEvent;
+import org.tmforum.projects.api.event.PaymentMeanEventFacade;
+import org.tmforum.projects.api.event.PaymentMeanEventPublisherLocal;
+import org.tmforum.projects.api.model.PaymentMean;
+import org.tmforum.projects.core.exceptions.BadUsageException;
+import org.tmforum.projects.core.exceptions.UnknownResourceException;
+import org.tmforum.projects.core.facade.PaymentMeanFacade;
+import org.tmforum.projects.core.utils.Jackson;
+import org.tmforum.projects.core.utils.URIParser;
+
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
-*/
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MultivaluedMap;
@@ -26,10 +38,10 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import java.util.*;
 
-//@Stateless
+@Stateless
 @Path("/customerManagement/v2/paymentMean")
 public class PaymentMeanResource {
-/*
+
     @EJB
     PaymentMeanFacade customerFacade;
     @EJB
@@ -40,10 +52,10 @@ public class PaymentMeanResource {
     public PaymentMeanResource() {
     }
 
-    /**
+    /*
      * Test purpose only
      */
- /*   @POST
+    @POST
     @Consumes({"application/json"})
     @Produces({"application/json"})
     public Response create(PaymentMean entity, @Context UriInfo info) throws BadUsageException, UnknownResourceException {
@@ -157,7 +169,7 @@ public class PaymentMeanResource {
 //        }
 //        return response;
 //    }
-    /**
+    /*
      *
      * For test purpose only
      *
@@ -165,7 +177,7 @@ public class PaymentMeanResource {
      * @return
      * @throws UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     @Path("{id}")
     public Response delete(@PathParam("id") long id) throws UnknownResourceException {
         PaymentMean entity = customerFacade.find(id);
@@ -206,5 +218,5 @@ public class PaymentMeanResource {
 
         return response;
     }
-    */
+
 }

@@ -6,10 +6,17 @@ import org.tmf.dsmapi.commons.jaxrs.Report;
 import org.tmf.dsmapi.customer.event.CustomerEvent;
 import org.tmf.dsmapi.customer.event.CustomerEventFacade;
 import org.tmf.dsmapi.customer.model.*;
+*/
+
+import org.tmforum.projects.api.event.CustomerEvent;
+import org.tmforum.projects.api.event.CustomerEventFacade;
+import org.tmforum.projects.api.model.*;
+import org.tmforum.projects.core.exceptions.BadUsageException;
+import org.tmforum.projects.core.exceptions.UnknownResourceException;
+import org.tmforum.projects.core.facade.CustomerFacade;
+import org.tmforum.projects.core.jaxrs.Report;
 
 import javax.ejb.EJB;
-import javax.ejb.Stateless;
-*/
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
@@ -24,7 +31,7 @@ import java.util.logging.Logger;
 //@Stateless
 @Path("/admin/customer")
 public class CustomerAdminResource {
-/*
+
     @EJB
     CustomerFacade customerFacade;
     @EJB
@@ -38,14 +45,14 @@ public class CustomerAdminResource {
         return customerFacade.findAll();
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
      * @param entities
      * @return
      */
-/*    @POST
+    @POST
     @Consumes({"application/json"})
     @Produces({"application/json"})
     public Response post(List<Customer> entities, @Context UriInfo info) throws UnknownResourceException {
@@ -102,14 +109,14 @@ public class CustomerAdminResource {
         return response;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
      * @return
      * @throws org.tmf.dsmapi.commons.exceptions.UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     public Report deleteAll() throws UnknownResourceException {
 
         eventFacade.removeAll();
@@ -130,7 +137,7 @@ public class CustomerAdminResource {
         return stat;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
@@ -138,7 +145,7 @@ public class CustomerAdminResource {
      * @return
      * @throws UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     @Path("{id}")
     public Response delete(@PathParam("id") Long id) throws UnknownResourceException {
         int previousRows = customerFacade.count();
@@ -219,11 +226,11 @@ public class CustomerAdminResource {
         return response;
     }
 
-    /**
+    /*
      *
      * @return
      */
-/*    @GET
+    @GET
     @Path("count")
     @Produces({"application/json"})
     public Report count() {
@@ -368,5 +375,5 @@ public class CustomerAdminResource {
 
         return customer;
     }
-  */
+
 }

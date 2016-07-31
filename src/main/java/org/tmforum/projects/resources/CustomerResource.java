@@ -7,7 +7,6 @@ package org.tmforum.projects.resources;
 import org.codehaus.jackson.node.ObjectNode;
 import org.tmf.dsmapi.commons.exceptions.BadUsageException;
 import org.tmf.dsmapi.commons.exceptions.UnknownResourceException;
-import org.tmf.dsmapi.commons.jaxrs.PATCH;
 import org.tmf.dsmapi.commons.utils.Jackson;
 import org.tmf.dsmapi.commons.utils.URIParser;
 import org.tmf.dsmapi.customer.event.CustomerEvent;
@@ -15,9 +14,21 @@ import org.tmf.dsmapi.customer.event.CustomerEventFacade;
 import org.tmf.dsmapi.customer.event.CustomerEventPublisherLocal;
 import org.tmf.dsmapi.customer.model.Customer;
 
-import javax.ejb.EJB;
-import javax.ejb.Stateless;
 */
+
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import io.dropwizard.jersey.PATCH;
+import org.tmforum.projects.api.event.CustomerEvent;
+import org.tmforum.projects.api.event.CustomerEventFacade;
+import org.tmforum.projects.api.event.CustomerEventPublisherLocal;
+import org.tmforum.projects.api.model.Customer;
+import org.tmforum.projects.core.exceptions.BadUsageException;
+import org.tmforum.projects.core.exceptions.UnknownResourceException;
+import org.tmforum.projects.core.facade.CustomerFacade;
+import org.tmforum.projects.core.utils.Jackson;
+import org.tmforum.projects.core.utils.URIParser;
+
+import javax.ejb.EJB;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MultivaluedMap;
@@ -28,7 +39,7 @@ import java.util.*;
 //@Stateless
 @Path("/customerManagement/v2/customer")
 public class CustomerResource {
-/*
+
     @EJB
     CustomerFacade customerFacade;
     @EJB
@@ -39,10 +50,10 @@ public class CustomerResource {
     public CustomerResource() {
     }
 
-    /**
+    /*
      * Test purpose only
      */
-/*    @POST
+    @POST
     @Consumes({"application/json"})
     @Produces({"application/json"})
     public Response create(Customer entity, @Context UriInfo info) throws BadUsageException, UnknownResourceException {
@@ -157,7 +168,7 @@ public class CustomerResource {
         return response;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
@@ -165,7 +176,7 @@ public class CustomerResource {
      * @return
      * @throws UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     @Path("{id}")
     public Response delete(@PathParam("id") long id) throws UnknownResourceException {
             Customer entity = customerFacade.find(id);
@@ -205,5 +216,5 @@ public class CustomerResource {
 
         return response;
     }
-  */
+
 }

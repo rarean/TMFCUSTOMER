@@ -1,11 +1,15 @@
 package org.tmforum.projects.resources;
 
+import org.tmforum.projects.api.event.CustomerAccountEvent;
+import org.tmforum.projects.api.event.CustomerAccountEventFacade;
+import org.tmforum.projects.api.model.*;
+import org.tmforum.projects.core.exceptions.BadUsageException;
+import org.tmforum.projects.core.exceptions.UnknownResourceException;
+import org.tmforum.projects.core.facade.CustomerAccountFacade;
+import org.tmforum.projects.core.jaxrs.Report;
+
+import javax.ejb.EJB;
 import javax.ws.rs.*;
-/*
-import org.tmf.dsmapi.commons.jaxrs.Report;
-import org.tmf.dsmapi.customer.model.*;
-import org.tmf.dsmapi.customerAccount.event.CustomerAccountEvent;
-import org.tmf.dsmapi.customerAccount.event.CustomerAccountEventFacade;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
@@ -14,11 +18,16 @@ import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-*/
+
+//import org.tmf.dsmapi.commons.jaxrs.Report;
+//import org.tmf.dsmapi.customer.model.*;
+//import org.tmf.dsmapi.customerAccount.event.CustomerAccountEvent;
+//import org.tmf.dsmapi.customerAccount.event.CustomerAccountEventFacade;
+
 //@Stateless
 @Path("/admin/customerAccount")
 public class CustomerAccountAdminResource {
-/*
+
     @EJB
     CustomerAccountFacade customerFacade;
     @EJB
@@ -39,7 +48,7 @@ public class CustomerAccountAdminResource {
      * @param entities
      * @return
      */
-/*    @POST
+    @POST
     @Consumes({"application/json"})
     @Produces({"application/json"})
     public Response post(List<CustomerAccount> entities, @Context UriInfo info) throws UnknownResourceException {
@@ -96,14 +105,14 @@ public class CustomerAccountAdminResource {
         return response;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
      * @return
-     * @throws org.tmf.dsmapi.commons.exceptions.UnknownResourceException
+     * @throws org.tmforum.projects.core.exceptions.UnknownResourceException
      */
- /*   @DELETE
+    @DELETE
     public Report deleteAll() throws UnknownResourceException {
 
         eventFacade.removeAll();
@@ -124,7 +133,7 @@ public class CustomerAccountAdminResource {
         return stat;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
@@ -132,7 +141,7 @@ public class CustomerAccountAdminResource {
      * @return
      * @throws UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     @Path("{id}")
     public Response delete(@PathParam("id") Long id) throws UnknownResourceException {
         int previousRows = customerFacade.count();
@@ -213,11 +222,11 @@ public class CustomerAccountAdminResource {
         return response;
     }
 
-    /**
+    /*
      *
      * @return
      */
-/*    @GET
+    @GET
     @Path("count")
     @Produces({"application/json"})
     public Report count() {
@@ -411,5 +420,5 @@ public class CustomerAccountAdminResource {
 
         return customerAccount;
     }
-*/
+
 }

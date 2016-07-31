@@ -8,9 +8,18 @@ import org.tmf.dsmapi.customer.model.*;
 import org.tmf.dsmapi.paymentMean.event.PaymentMeanEvent;
 import org.tmf.dsmapi.paymentMean.event.PaymentMeanEventFacade;
 
+*/
+
+import org.tmforum.projects.api.event.PaymentMeanEvent;
+import org.tmforum.projects.api.event.PaymentMeanEventFacade;
+import org.tmforum.projects.api.model.*;
+import org.tmforum.projects.core.exceptions.BadUsageException;
+import org.tmforum.projects.core.exceptions.UnknownResourceException;
+import org.tmforum.projects.core.facade.PaymentMeanFacade;
+import org.tmforum.projects.core.jaxrs.Report;
+
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
-*/
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
@@ -20,10 +29,10 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-//@Stateless
+@Stateless
 @Path("/admin/paymentMean")
 public class PaymentMeanAdminResource {
-/*
+
     @EJB
     PaymentMeanFacade customerFacade;
     @EJB
@@ -37,14 +46,14 @@ public class PaymentMeanAdminResource {
         return customerFacade.findAll();
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
      * @param entities
      * @return
      */
-/*    @POST
+    @POST
     @Consumes({"application/json"})
     @Produces({"application/json"})
     public Response post(List<PaymentMean> entities, @Context UriInfo info) throws UnknownResourceException {
@@ -101,14 +110,14 @@ public class PaymentMeanAdminResource {
         return response;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
      * @return
      * @throws org.tmf.dsmapi.commons.exceptions.UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     public Report deleteAll() throws UnknownResourceException {
 
         eventFacade.removeAll();
@@ -129,7 +138,7 @@ public class PaymentMeanAdminResource {
         return stat;
     }
 
-    /**
+    /*
      *
      * For test purpose only
      *
@@ -137,7 +146,7 @@ public class PaymentMeanAdminResource {
      * @return
      * @throws UnknownResourceException
      */
-/*    @DELETE
+    @DELETE
     @Path("{id}")
     public Response delete(@PathParam("id") Long id) throws UnknownResourceException {
         int previousRows = customerFacade.count();
@@ -218,11 +227,11 @@ public class PaymentMeanAdminResource {
         return response;
     }
 
-    /**
+    /*
      *
      * @return
      */
-/*    @GET
+    @GET
     @Path("count")
     @Produces({"application/json"})
     public Report count() {
@@ -270,5 +279,5 @@ public class PaymentMeanAdminResource {
 
         return paymentMean;
     }
-*/
+
 }
