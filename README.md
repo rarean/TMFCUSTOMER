@@ -1,4 +1,4 @@
-[https://travis-ci.org/rarean/TMFCUSTOMER.svg?branch=master]
+[![Build Status](https://travis-ci.org/rarean/TMFCUSTOMER.svg?branch=master)](https://travis-ci.org/rarean/TMFCUSTOMER)
 # TMFCUSTOMER
 Dropwizard 0.9.3 port of TMForum's Customer Management Open API
 
